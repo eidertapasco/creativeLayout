@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*--------------------Section 1----------------------------*/
+.sect1{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../img/bgHeader.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+      
+}
+.sect1__h1{
+    color: #FF8940;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sect1__p{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.sect1__bt{
+    background-color: #FF8940;
+    color: #FFFFFF;
+    margin: 10px;
+    width: 8%;
+    height: 6%;
+    text-align: center;
+    border-radius: 276px;
+    border-color: #FF8940;
+    border: none;
+    font-size: 18px;
+}
+/*--------------------Section 2----------------------------*/
+.sect2-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+}
+.sect2-div1__h2{
+    color: #FF8940;
+}
+.sect2-div2__h2{
+    color: #FF8940;
+}
+
+/*--------------------Section 3----------------------------*/
+.sect3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../img/bgDown.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+.sect3__h2{
+    color: #FF8940;
+    font-size: 45px;
+}
+
+/*--------------------Section footer----------------------------*/
+.footer-content{
+    background-color: #FF8940;
+    color: #EFEFEF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sect2-div1__h2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;            
+}
+  
+.sect2-div1__img {
+    flex: 1;
+}
+  
+.sect2-div1__img img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+} */
+
+
+
+
+
+/* .sect2-div1__h2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sect2-div2__p{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+
+
+
+
+
+.sect2-div2{
+    display: flex;
+    align-items: center;
+}
+/* #EFEFF1 gris
+#96846C cafe
+#F4DFDA rosa
+ naranja */
