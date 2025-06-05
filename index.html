@@ -3,85 +3,95 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Eider Tapasco - Entertainment Anywhere</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/laptops.css" media="screen and (max-width: 920px)">
+        <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width: 768px)">
+        <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)">
     </head>
     <body>
-        <main>
-            <!-- Section 1 -->
-            <section class="sect1">
-                <h1 class="sect1__h1">Creative & Clean</h1>
-                <p class="sect1__p">LUXURY WORKSTATION WITH STYLE.</p>
-                <button class="sect1__bt">View ⭢</button>
-                <!-- Background image bgHeader.png -->
-            </section>
-            <!-- section 2 -->
-            <section class="sect2">
-                <div class="sect2-div1">
-                    <h2 class="sect2-div1__h2">MAKE YOUR WORKSTATION FUN WITH ENTERTAINMET.</h2>
-                    <p class="sect2-div1__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum aliquam, ad amet voluptatibus minima quas blanditiis 
-                        officia animi, cumque eligendi, impedit praesentium dolorum alias beatae incidunt quia culpa quod.</p>
-                    <div class="sect2-div1__img">
-                        <img src="img/img01.png" alt="Es un escritorio con un computador">
-                    </div>
-                    <button class="sect1__bt">View ⭢</button> <!--Se reutilizan los estilos de la seccion 1 para este boton-->
-                </div>
-                <div class="sect2-div2">
-                    <div class="sect2-div2__img">
-                        <img src="img/img02.png" alt="Escritorio con una silla amarilla">
-                    </div>
-                    <h2 class="sect2-div2__h2">WORK ANYWEHRE YOU LIKE , ANYWHERE YOU PREFER.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quis, tenetur possimus sapiente eaque sequi voluptas
-                         explicabo corrupti in repellat fugit laborum iusto cum quae fuga. Accusantium veniam nisi praesentium.</p>
-                    <button class="sect1__bt">View ⭢</button> <!--Se reutilizan los estilos de la seccion 1 para este boton-->
+        <main class="main">
+            <!-- Section 1 Hero -->
+            <section class="hero">
+                <div class="hero__content">
+                    <h1 class="hero__title">Creative & Clean</h1>
+                    <p class="hero__subtitle">LUXURY WORKSTATION WITH STYLE.</p>
+                    <button class="btn">View ⭢</button>
                 </div>
             </section>
-            <!-- Section 3 -->
-            <section class="sect3">
-                <h2 class="sect3__h2">SUPPLY OF UNMILITED RESOURCES...</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, totam! Voluptatibus neque, 
+
+            <!-- section 2 Features -->
+            <section class="features">
+                <div class="features__row">
+                    <div class="features__text">
+                        <h2 class="features__title">MAKE YOUR WORKSTATION FUN WITH ENTERTAINMET.</h2>
+                        <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum aliquam, ad amet voluptatibus minima quas blanditiis officia animi, cumque eligendi, impedit praesentium dolorum alias beatae incidunt quia culpa quod.</p>
+                        <button class="btn">View ⭢</button>
+                    </div>
+                    <div class="features__image">
+                        <img class="features__img" src="assets/img01.png" alt="Es un escritorio con un computador">
+                    </div>
+                </div>
+                
+                <div class="features__row features__row--reverse">
+                    
+                    <div class="features__text">
+                        <h2 class="features__title">WORK ANYWEHRE YOU LIKE , ANYWHERE YOU PREFER.</h2>
+                        <p class="features__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quis, tenetur possimus sapiente eaque sequi voluptasv explicabo corrupti in repellat fugit laborum iusto cum quae fuga. Accusantium veniam nisi praesentium.</p>
+                        <button class="btn">View ⭢</button>
+                    </div>
+                    <div class="features__image">
+                        <img class="features__img" src="assets/img02.png" alt="Escritorio con una silla amarilla">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3 RESOURCES-->
+            <section class="resources">
+                <div class="resources__content">
+                    <h2 class="resources__title">SUPPLY OF UNMILITED RESOURCES...</h2>
+                    <p class="resources__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, totam! Voluptatibus neque, 
                     nesciunt corporis ullam officiis doloremque non nobis quis velit porro nisi quaerat voluptates, 
-                    repudiandae quae voluptas expedita fuga.
-                </p>
-                <button class="sect1__bt">Check this out ⭢</button> <!--Se reutilizan los estilos de la seccion 1 para este boton-->
-                <!-- Background image bgDown.png -->
+                    repudiandae quae voluptas expedita fuga.</p>
+                    <button class="btn btn_resources">Check this out ⭢</button>
+                </div>
             </section>
         </main>
-        <!-- Footer section -->
-        <footer class="footer-content">
-            <ul class="footer-content__ul">
-                <h4>Address</h4>
 
-                <li>Creative & Clean</li>
-                <li>Sylhet 3100</li>
-                <li>Dhaka</li>
-                <li>Bangladesh</li>
+        <!-- Section 4 FOOTER -->
+        <footer class="footer">
+            <ul class="footer__list">
+                <h4 class="footer__title">Address</h4>
+                <li class="footer__item">Creative & Clean</li>
+                <li class="footer__item">Sylhet 3100</li>
+                <li class="footer__item">Dhaka</li>
+                <li class="footer__item">Bangladesh</li>
             </ul>
-            <ul class="footer-content__ul">
-                <h4>Product</h4>
-
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Open-Source</li>
+            <ul class="footer__list">
+                <h4 class="footer__title">Product</h4>
+                <li class="footer__item">Features</li>
+                <li class="footer__item">Pricing</li>
+                <li class="footer__item">Marketplace</li>
+                <li class="footer__item">Open-Source</li>
             </ul>
-            <ul class="footer-content__ul">
-                <h4>Learn</h4>
-
-                <li>Documentation</li>
-                <li>Tutorial</li>
-                <li>Blog</li>
-                <li>Resources</li>
+            <ul class="footer__list">
+                <h4 class="footer__title">Learn</h4>
+                <li class="footer__item">Documentation</li>
+                <li class="footer__item">Tutorial</li>
+                <li class="footer__item">Blog</li>
+                <li class="footer__item">Resources</li>
             </ul>
-            <ul class="footer-content__ul">
-                <h4>Pricing</h4>
-
-                <li>Basic</li>
-                <li>Regular</li>
-                <li>Premium</li>
-                <li>Platinum</li>
-            </ul>
-            <p class="footer-content__p">&copy;2025 all rights reserved by eidertapasco.dev@gmail.com</p>
+            <ul class="footer__list">
+                <h4 class="footer__title">Pricing</h4>
+                <li class="footer__item">Basic</li>
+                <li class="footer__item">Regular</li>
+                <li class="footer__item">Premium</li>
+                <li class="footer__item">Platinum</li>
+            </ul> 
         </footer>
+
+        <div class="footer__credits">
+            <p class="footer__copy">&copy;2025 all rights reserved by eidertapasco.dev@gmail.com</p>
+        </div>
     </body>
 </html>

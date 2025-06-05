@@ -1,0 +1,47 @@
+
+/* ----------RESPONSIVE DESIGN (DESKTOP FIRST)----------- */
+/*≤ 920px: Columnas en vez de filas, tamaños de texto más pequeños*/
+@media (max-width: 920px) {
+  .features__row,
+  .features__row--reverse {
+    flex-direction: column;
+    height: auto;
+    padding: 4rem 2rem;
+    gap: 4rem;
+  }
+
+  .features__text,
+  .features__image {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .features__description {
+    max-width: 100%;
+  }
+
+  .resources {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .resources__content {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .footer__list {
+    width: 45%;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+
+
